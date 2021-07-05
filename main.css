@@ -154,8 +154,16 @@ footer .follow .socials {
 footer .follow .socials img{
     width: 18px;
 }
-.copyright, .underline {
-    display: none;
+.underline {
+    width: 90%;
+    margin: 2rem auto;
+    text-align: center;
+    border: 1px solid #5149492f;
+    margin-top: 4rem;
+}
+.copyright {
+    text-align: center;
+    font-weight: bold;
 }
 
 
@@ -225,19 +233,5 @@ footer .follow .socials img{
     }
     footer .follow .socials img {
         margin: 0 5px;
-    }
-    .underline {
-        width: 90%;
-        margin: 2rem auto;
-        text-align: center;
-        border: 1px solid #5149492f;
-        margin-top: 4rem;
-        display: block;
-    }
-
-    .copyright {
-        text-align: center;
-        font-weight: bold;
-        display: block;
     }
 }
