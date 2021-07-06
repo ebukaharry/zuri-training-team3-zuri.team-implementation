@@ -1,0 +1,316 @@
+
+ul li {
+    text-align: left;
+    margin: 1rem;
+    list-style: none;
+}
+ul li a {
+    color: #51494980;
+}
+ul li:first-child a {
+    color: #E7332B;
+}
+ul li a button {
+    width: 95%;
+    padding: 12px;
+}
+nav {
+    background: #F7F3F2;
+    margin-bottom: 2rem;
+}
+.wrap {
+    display: none;
+}
+.wrapper {
+    padding-bottom: 3rem;
+    overflow-x: hidden;
+}
+.navbar {
+    display: none;
+}
+.nav-head {
+    display: flex;
+    justify-content: space-between;
+}
+.logo img {
+    margin: 0 0 -2rem 1rem;
+}
+.hamburger {
+    width: 28px;
+    height: 28px;
+    margin: 24px 2rem;
+}
+
+
+.hero, .i4g {
+    margin: 1rem;
+    color: #514949;
+}
+.hero p {
+    text-align: left;
+    font-size: 0.85rem;
+    line-height: 20px;
+    padding: 2rem 1px;
+}
+.hero a button {
+    width: 9rem;
+    margin: 1.5rem auto;
+}
+
+.i4g-logo {
+    width: 7rem;
+    padding-bottom: 10px;
+}
+.i4g-pic {
+    width: 23.5rem;
+    padding: 10px 2rem 1rem 0;
+}
+
+.about {
+    padding: 2rem 0rem;
+}
+.about h3, .scope h3 {
+    font-size: .9rem;
+    color: #E7332B;
+    font-weight: 200;
+    padding: 0 1rem;
+}
+.about h4 {
+    padding: 10px 1rem;
+    width: 23rem;
+    padding-bottom: 2rem;
+}
+.about-pic {
+    text-align: center;
+}
+.about-pic img {
+    width: 100%;
+    padding-bottom: 1.5rem;
+}
+.about-section {
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+.about-section h2 {
+    padding-bottom: 1.5rem;
+}
+.about-section p {
+    line-height: 24px;
+    color: grey;
+    padding-bottom: 1rem;
+}
+.about-section ul li {
+    list-style: initial;
+    margin: 0 1rem;
+    color: grey;
+}
+
+.scope h2{
+    padding: 1rem;
+    color: #000;
+}
+.scope button {
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+.stacks {
+    display: flex;
+    flex-direction: column;
+}
+.card {
+    width: 92%;
+    height: auto;
+    margin: .8rem auto;
+    padding: 1rem 1.5rem;
+    border-radius: 4px;
+}
+.card h4 {
+    color: #000;
+    font-size: 17px;
+    letter-spacing: 1px;
+    padding: 1.5rem 0;
+}
+.card p {
+    line-height: 24px;
+    padding-bottom: 1.5rem;
+    font-size: 1rem;
+}
+small {
+    color: #6c757d;
+}
+.line {
+    width: 100%;
+    margin: 0 auto;
+    border: .5px solid #51494915;
+    margin-bottom: 1rem;
+}
+.fe {
+    background: #ffe3e1;
+}
+.be {
+    background: #f0dcf8;
+}
+.ui {
+    background: #f0f6f7;
+}
+.md {
+    background: #dcf4f8;
+}
+.et {
+    background: #f2ebe9;
+}
+.dm {
+    background: #f0f6f7;
+}
+
+
+.enroll {
+    padding: 4rem 5px;
+    background-image: url(../imgs/crooked-line-bg.png);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 3.5rem auto;
+}
+.enroll h2 {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+.links {
+    display: none;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+footer .contact p {
+    padding: 0;
+}
+footer h3 {
+    font-size: 14px;
+}
+footer .contact, .follow, .foot {
+    text-align: left;
+    margin-left: 24px;
+}
+footer .logo {
+    width: 12rem;
+}
+footer .follow .socials {
+    margin: 1rem 4rem 10px 0;
+}
+
+/* ########### MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    nav, .navbar {
+        display: flex;
+        padding-right: 6px;
+    }
+    .hamburger {
+        display: none;
+    }
+    nav {
+        justify-content: space-between;
+    }
+    button {
+        padding: 12px 24px;
+    }
+
+    .hero-sm{
+        display: none;
+    }
+    .wrap {
+        display: flex;
+        padding: 1rem;
+        justify-content: space-between;
+    }
+    .i4g-btn-lg {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero img {
+        width: 160px;
+        padding-top: 2rem;
+    }
+    .hero h1 {
+        width: 37rem;
+    }
+    .hero p {
+        width: 34rem;
+        margin: initial;
+    }
+    .i4g-lg img {
+        padding-right: 2rem;
+        width: 30rem;
+    }
+    .about {
+        margin-top: -18rem;
+    }
+    .about h4 {
+        width: initial;
+    }
+    .about-pic img {
+        width: initial;
+    }
+    .about-pic {
+        text-align: initial;
+    }
+    .about-section {
+        display: flex;
+        margin: 1.5rem;
+    }
+    .section-2 {
+        flex-direction: row-reverse;
+    }
+    .about-section div:nth-child(2) {
+        padding: 1.5rem;
+    }
+    .about-section p, .about-section li {
+        /* font-size: 12.5px; */
+    }
+
+    .scope {
+        padding: 2rem;
+    }
+    .scope > div {
+        display: flex;
+        justify-content: space-between;
+    }
+    .stacks {
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 3rem 3rem;
+    }
+    .card {
+        width: 33%;
+        margin: .8rem -1.5rem;
+        padding: 1rem 2rem;
+    }
+    .enroll {
+        margin: 0 2rem;
+        width: initial;
+    }
+    footer {
+        flex-direction: row;
+        padding-top: 2rem;
+    }
+    .links {
+        display: block;
+    }
+    .footer-content {
+        flex-direction: row;
+    }
+    footer ul li {
+        margin: 0;
+    }
+    footer h3 {
+        font-size: 18px;
+    }
+}
