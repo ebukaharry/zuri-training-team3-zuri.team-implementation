@@ -20,10 +20,12 @@
 .hero {
     padding: 2em 0 ;
     padding-bottom: 3em;
+}
+.hero-bg {
     background: url(../imgs/bg-swirls.svg) no-repeat;
     background-position: center center;
     background-size: cover;
-}
+}    
 .hero header .logo {
     margin: 5.5em auto;
     /* margin-top: 6em; */
