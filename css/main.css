@@ -17,10 +17,10 @@
 }
 
 
-.hero{
+.hero {
     padding: 2em 0 ;
     padding-bottom: 3em;
-    background: url(./imgs/bg-swirls.svg) no-repeat;
+    background: url(../imgs/bg-swirls.svg) no-repeat;
     background-position: center center;
     background-size: cover;
 }
