@@ -25,7 +25,7 @@
     background: url(../imgs/bg-swirls.svg) no-repeat;
     background-position: center center;
     background-size: cover;
-}    
+}
 .hero header .logo {
     margin: 5.5em auto;
     /* margin-top: 6em; */
@@ -74,9 +74,18 @@ a {
     font-size: 1em;
     line-height: 1rem;
 }
+button:hover {
+    background: #fff;
+    cursor: pointer;
+    color: #E7332B;
+}
 .btn-2 button {
     background: #fff;
     color: #E7332B;
+}
+.btn-2 button:hover {
+    background: #E7332B;
+    color: #fff;
 }
 
 

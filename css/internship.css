@@ -271,9 +271,6 @@ footer .follow .socials {
     .about-section div:nth-child(2) {
         padding: 1.5rem;
     }
-    .about-section p, .about-section li {
-        /* font-size: 12.5px; */
-    }
 
     .scope {
         padding: 2rem;
