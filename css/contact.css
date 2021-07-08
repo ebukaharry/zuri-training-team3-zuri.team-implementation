@@ -1,0 +1,84 @@
+.hero h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.sub-head {
+    text-align: left;
+    padding: 1rem;
+}
+.sub-head h3 {
+    font-size: 1.75rem;
+}
+.sub-head p {
+    font-size: 16px;
+    font-weight: 100;
+    padding-top: 5px;
+    margin-right: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+form {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+input {
+    height: 40px;
+    border: 1px solid rgba(119, 118, 118, 0.623);
+    border-radius: 8px;
+}
+#message {
+    height: 260px;
+}
+form button {
+    position: relative;
+    left: 10rem;
+    bottom: 2.5rem;
+    border-radius: 5px;
+    padding: .8rem 1.8rem;
+}
+span {
+    color: red;
+}
+ul li:first-child a {
+    color: rgba(81, 73, 73, 0.5);
+}
+ul li:nth-child(3) a {
+    color: rgb(231, 51, 43);
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        padding: 0 15rem;
+    }
+    .about {
+        margin-bottom: 0;
+    }
+    .about h3 {
+        font-size: 16px;
+    }
+    .sub-head {
+        text-align: center;
+        padding: 3rem;
+        margin-right: 11rem;
+        padding-bottom: 0;
+    }
+    .sub-head p {
+        margin-right: 2rem;
+    }
+    .wrapp {
+        display: block;
+        margin-right: -3rem;
+    }
+    form div {
+        margin-bottom: 2rem;
+    }
+    input {
+        width: 600px;
+    }
+    form button {
+        top: 0;
+        left: 30.5rem;
+    }
+
+}
